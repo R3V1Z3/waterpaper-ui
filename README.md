@@ -13,6 +13,9 @@ Waterpaper UI uses one of [Inkscape's](https://inkscape.org/) outstanding filter
 > Markdown preview with Atom One Light syntax theme. Makdown previews are a special sort of fun in watercolor.
 ![Markdown with Atom One Light](screenshots/waterpaper-ui-markdown.png)
 
+> Find/replace in JSON with Base16 Tomorrow Light syntax theme.
+![JSON with Base16 Tomorrow Light](screenshots/waterpaper-ui-json-find.png)
+
 > Font used in screenshots is [Fira Code iScript](https://github.com/kencrocken/FiraCodeiScript/).
 
 ## Credits
