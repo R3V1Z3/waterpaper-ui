@@ -31,9 +31,24 @@ atom-workspace {
 		inset 0 0 300px rgba(100,100,40,0.5);
 }
 
+atom-workspace::before {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+	top: 0;
+  left: 0;
+	height: 100%;
+	width: 100%;
+	filter: hue-rotate(45deg);
+	background: url(atom://waterpaper-ui/assets/splat.png) no-repeat;
+	opacity: 0.25;
+	background-position: left;
+	background-size: cover;
+	mix-blend-mode: color-burn;
+}
+
 atom-workspace::after {
   content: "";
-	z-index: 3;
   pointer-events: none;
   position: absolute;
 	top: 10%;

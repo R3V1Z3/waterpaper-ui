@@ -1,5 +1,21 @@
 @tree-view-height: @ui-line-height;
 
+.tree-view::after {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+	top: -20%;
+  left: 0;
+	height: 100%;
+	width: 100%;
+  filter: hue-rotate(180deg);
+	background: url(atom://waterpaper-ui/assets/splat.png) no-repeat;
+  background-size: 700px;
+  transform-origin: center;
+  transform: rotate(180deg);
+  mix-blend-mode: color-burn;
+}
+
 .tree-view {
   font-size: @ui-size;
   background: @tree-view-background-color;
