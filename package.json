@@ -1,7 +1,7 @@
 {
   "name": "waterpaper-ui",
   "theme": "ui",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Watercolor UI theme for Atom from ye olde days",
   "keywords": [
     "light",
