@@ -38,14 +38,16 @@ ul.tab-bar {
     background-color: @tab-background-color;
     border-left: @tab-border;
     :hover {
-      background: url(atom://waterpaper-ui/assets/splat-tab.png);
+      background: url(atom://waterpaper-ui/assets/splat.png) no-repeat;
+      background-position: center;
+      background-size: contain;
       mix-blend-mode: multiply;
     }
     &.active {
       color: @ui-fg;//@tab-text-color-editor;
-      background: url(atom://waterpaper-ui/assets/splat-tab.png);
-      backgound-size: contain;
-      mix-blend-mode: multiply;
+      background: url(atom://waterpaper-ui/assets/splat.png) no-repeat;
+      background-position: center;
+      background-size: contain;
       background-color: transparent;//@tab-background-color-editor; // Match syntax background color
     }
 
@@ -233,8 +235,9 @@ atom-dock .tab-bar .tab::before {
   &[data-type$="StyleguideView"],
   &[data-type="MarkdownPreviewView"] {
     color: @ui-fg;//@tab-text-color-editor;
-    background: url(atom://waterpaper-ui/assets/splat-tab.png);
-    backgound-size: contain;
+    background: url(atom://waterpaper-ui/assets/splat.png) no-repeat;
+    background-position: center;
+    background-size: contain;
     mix-blend-mode: color-burn;
     background-color: transparent;//@tab-background-color-editor; // Match syntax background color
   }
